@@ -2,8 +2,8 @@
   "name": "just-sum",
   "version": "0.0.1",
   "description": "",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "dist/sum.js",
+  "module": "dist/sum.js",
   "files": [
     "/dist"
   ],
