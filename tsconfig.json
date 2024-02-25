@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "removeComments": false,
+    "declaration": true,
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "global.d.ts",
+      "typings"
+    ],
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "sourceMap": false,
+    "noImplicitAny": false
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": ["./sum.ts"]
+}
